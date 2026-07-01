@@ -29,24 +29,9 @@ This project demonstrates how to host a static website using Amazon S3 Static We
 
 ## Architecture
 
-```text
-                +------------------+
-                |  Client/Browser  |
-                +------------------+
-                         |
-                  HTTP Request
-                         |
-                         ▼
-          +-------------------------------+
-          | Amazon S3 Static Website      |
-          | Hosting                       |
-          +-------------------------------+
-                         |
-                         ▼
-      +--------------------------------------+
-      | HTML | CSS | JavaScript | Images     |
-      +--------------------------------------+
-```
+The following diagram illustrates the architecture of the AWS S3 Static Website Hosting project.
+
+![Project Architecture](architecture.png)
 
 ---
 
@@ -111,25 +96,25 @@ Open the S3 Static Website Endpoint provided by AWS in your browser.
 ---
 
 
----## Screenshots
+## Screenshots
 
 ### S3 Bucket
-![S3 Bucket](screenshots/bucket_image.png)
+![S3 Bucket](bucket_image.png)
 
 ### Files in S3 Bucket
-![Files in Bucket](screenshots/files_in_bucket.png)
+![Files in Bucket](files_in_bucket.png)
 
 ### Static Website Hosting Configuration
-![Static Website Hosting](screenshots/web_hosting_edit.png)
+![Static Website Hosting](web_hosting_edit.png)
 
 ### Static Website Endpoint
-![Static Website Endpoint](screenshots/static-hosting.png)
+![Static Website Endpoint](static-hosting.png)
 
 ### Bucket Policy
-![Bucket Policy](screenshots/bucket-policy.png)
+![Bucket Policy](bucket-policy.png)
 
 ### Hosted Website
-![Hosted Website](screenshots/hostindex.png)
+![Hosted Website](hostindex.png)
 
 ## Learning Outcomes
 
