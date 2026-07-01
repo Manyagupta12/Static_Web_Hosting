@@ -29,9 +29,23 @@ This project demonstrates how to host a static website using Amazon S3 Static We
 
 ## Architecture
 
-The following diagram illustrates the architecture of the AWS S3 Static Website Hosting project.
-
-![Project Architecture](architecture.png)
+```text
++------------------+
+| Client / Browser |
++------------------+
+         |
+         | HTTP Request
+         v
++---------------------------+
+| Amazon S3 Static Website  |
+| Hosting                   |
++---------------------------+
+         |
+         v
++---------------------------+
+| HTML | CSS | JS | Images  |
++---------------------------+
+```
 
 ---
 
