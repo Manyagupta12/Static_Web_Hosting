@@ -128,7 +128,7 @@ Open the S3 Static Website Endpoint provided by AWS in your browser.
 ![Bucket Policy](bucket-policy.png)
 
 ### Hosted Website
-![Hosted Website](hostindex.png)
+![Hosted Website](hostindex.jpeg)
 
 ## Learning Outcomes
 
